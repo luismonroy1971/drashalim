@@ -1,0 +1,58 @@
+<svg viewBox="0 0 520 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Paciente con una sonrisa radiante">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#98e6e2"/>
+      <stop offset="1" stop-color="#0e9ca8"/>
+    </linearGradient>
+    <linearGradient id="hairS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2018"/>
+      <stop offset="1" stop-color="#22120d"/>
+    </linearGradient>
+    <radialGradient id="glowS" cx="50%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="520" height="650" fill="url(#bgS)"/>
+  <rect width="520" height="650" fill="url(#glowS)"/>
+  <circle cx="110" cy="140" r="150" fill="#ffffff" opacity="0.08"/>
+  <circle cx="430" cy="500" r="130" fill="#ffffff" opacity="0.07"/>
+
+  <g fill="#f4b860" opacity="0.9">
+    <path d="M400 130l7 16 16 7-16 7-7 16-7-16-16-7 16-7z"/>
+    <path d="M90 470l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+  </g>
+
+  <!-- shoulders -->
+  <path d="M150 650c0-100 46-168 110-168s110 68 110 168z" fill="#f4b860"/>
+  <path d="M180 650c0-70 34-120 80-120s80 50 80 120z" fill="#ffd089"/>
+
+  <!-- neck -->
+  <path d="M240 430h40v58h-40z" fill="#d99a6c"/>
+  <path d="M240 456c10 12 30 12 40 0v-26h-40z" fill="#c9875a"/>
+
+  <!-- head -->
+  <path d="M182 322c0-72 36-122 78-122s78 50 78 122c0 34-10 66-24 80l-16-150-76-4-16 154c-14-14-24-46-24-80z" fill="url(#hairS)"/>
+  <ellipse cx="260" cy="330" rx="66" ry="76" fill="#e7ac7a"/>
+  <circle cx="220" cy="352" r="13" fill="#e08d63" opacity="0.5"/>
+  <circle cx="300" cy="352" r="13" fill="#e08d63" opacity="0.5"/>
+
+  <!-- eyes happy -->
+  <path d="M222 326c8-10 24-10 32 0" fill="none" stroke="#22120d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M266 326c8-10 24-10 32 0" fill="none" stroke="#22120d" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- big smile with bright teeth -->
+  <path d="M226 360c14 34 68 34 82 0 0 0-8 26-41 26s-41-26-41-26z" fill="#7a2f22"/>
+  <path d="M232 366c12 26 56 26 68 0z" fill="#ffffff"/>
+  <g stroke="#e7d9c9" stroke-width="1.5">
+    <line x1="248" y1="368" x2="248" y2="384"/>
+    <line x1="260" y1="368" x2="260" y2="388"/>
+    <line x1="272" y1="368" x2="272" y2="384"/>
+  </g>
+  <!-- sparkle on tooth -->
+  <path d="M252 372l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#eafcfb"/>
+
+  <!-- hair front -->
+  <path d="M194 318c4-58 32-100 66-100s62 42 66 100c-14-22-26-40-26-40s-20 30-58 34c-22 2-38 4-48 6z" fill="url(#hairS)"/>
+</svg>
